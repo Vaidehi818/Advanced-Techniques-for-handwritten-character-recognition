@@ -7,8 +7,7 @@ Steps to run the project:
 4. click any of the 2 links mentioned
 5. output will be displayed in browser
 6. click any of the 3 recognitions wait for 5-10 seconds
-7. You can choose file from dataset folder for digit recognition digit folder is available
-8. For alphabet recognition letter folder is available
+7. you must upload image file(png/jpg) as present in HCR folder
 
 Must install libraries:
 1. cv
