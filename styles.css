@@ -1,0 +1,65 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.header {
+    text-align: left;
+    padding: 40px;
+    background: #333;
+    color: white;
+}
+
+.button {
+    padding: 10px 20px;
+    position: absolute;
+    right: 50px; /* Adjust as needed */
+    top: 10%;
+    transform: translateY(-50%);
+    float: center;
+    font-size: 18px;
+    background: #ff4081;
+    color: #fff;
+    border: white;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+}
+
+.button:hover {
+    background: #ff79b0;
+    transform: scale(1.1);
+}
+
+.parallax {
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.parallax1 {
+    background-image: url('Images/alphabets.png'); /* Replace with actual image URL */
+}
+
+.parallax2 {
+    background-image: url('Images/digits.jpg'); /* Replace with actual image URL */
+}
+
+.parallax3 {
+    background-image: url('Images/words.jpg'); /* Replace with actual image URL */
+}
+
+.content {
+    padding: 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: white;
+}
